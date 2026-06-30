@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    float x, sum = 0, term = 1;
+    int n;
+
+    cout << "Enter x: ";
+    cin >> x;
+    cout << "Enter n: ";
+    cin >> n;
+
+    for (int i = 1; i <= n; i++) {
+        term = term * (x / i);
+        sum = sum + term;
+    }
+
+    cout << "Sum = " << sum << endl;
+    return 0;
+}

@@ -1,0 +1,9 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main() {
+    // pair<RollNumber, StudentName>
+    pair<int, string> student = {101, "Amit"};
+    cout << "Roll: " << student.first << ", Name: " << student.second;
+    return 0;
+}
